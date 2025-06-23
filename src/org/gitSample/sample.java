@@ -1,7 +1,15 @@
 package org.gitSample;
 
 public class sample {
+	private void git1() {
+		System.out.println("New Line Created");
+
+	}
 public static void main(String[] args) {
+	
+	sample s= new sample();
+	s.git1();
+	
 	int given= 1234;
 	int reversed=0;
 	
